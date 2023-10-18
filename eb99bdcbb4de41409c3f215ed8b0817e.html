@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>080be4e0c05c46619be0cba6b4ec2d43</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="data-analysis-and-visualization-project"
+class="cell markdown">
+<h1>Data Analysis and Visualization Project</h1>
+</section>
+<div class="cell markdown" data-tags="[]">
+<p>Here is a description of the columns in our dataset, with the help of
+the World Happiness Report webpage: <a
+href="https://worldhappiness.report/"
+class="uri">https://worldhappiness.report/</a></p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Variable description</th>
+<th>Type</th>
+<th>Units of measurement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Country</td>
+<td>Name of country</td>
+<td>Categorical</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Year</td>
+<td>Year ranging from 2008 to present</td>
+<td>Numeric</td>
+<td>Year</td>
+</tr>
+<tr class="odd">
+<td>Life Ladder</td>
+<td>Average Survey Response ranging from 0-10, with the best possible
+life for them being a 10 and the worst possible life being a 0</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Log GDP per Capita</td>
+<td>measure of the economic output of a nation per person</td>
+<td>Numeric</td>
+<td>Log</td>
+</tr>
+<tr class="odd">
+<td>Social Support</td>
+<td>the national average of the binary responses (either 0 or 1) to the
+Gallup World Poll (GWP) question “If you were in trouble, do you have
+relatives or friends you can count on to help you whenever you need
+them, or not?” (higher value means higher proportion of "yes")</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Life Expectancy</td>
+<td>statistical measure of the estimate of the span of a life at
+birth</td>
+<td>Numeric</td>
+<td>Years</td>
+</tr>
+<tr class="odd">
+<td>Life Choice Freedom</td>
+<td>national average of binary responses to the GWP question “Are you
+satisfied or dissatisfied with your freedom to choose what you do with
+your life?” (higher value means higher proportion of "yes")</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Generosity</td>
+<td>the residual of regressing the national average of GWP responses to
+the question “Have you donated money to a charity in the past month?” on
+GDP per capita (higher value means higher proportion of "yes")</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td>Corruption</td>
+<td>the average of binary answers to two GWP questions: “Is corruption
+widespread throughout the government or not?” and “Is corruption
+widespread within businesses or not?” in terms of individual's
+perception (higher value means higher proportion of "yes")</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Positive Affect</td>
+<td>average measure in a year of the overall level of positive emotional
+well-being including yes or no questions centered around laughter,
+enjoyment, and learning or doing something interesting (higher value
+means higher proportion of "yes")</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td>Negative Affect</td>
+<td>average measure of negative emotional well-being in their day-to-day
+experiences including yes or no questions centered around worry,
+sadness, and anger (higher value means higher proportion of "yes")</td>
+<td>Numeric</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Political Stability</td>
+<td>internal political stability of the country during the time period
+from 2010 to 2020, reflected by the rankings from <a
+href="https://www.theglobaleconomy.com/rankings/wb_political_stability/"
+class="uri">https://www.theglobaleconomy.com/rankings/wb_political_stability/</a>
+where a country is considered stable if their political stability is
+greater than or equal to 0</td>
+<td>Categorical</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell markdown">
+<h3 id="data-description"><strong>Data Description</strong></h3>
+<p>The World Happiness Report is a renowned survey that provides
+valuable insights into the global state of happiness. It has gained
+widespread recognition and is increasingly utilized by governments,
+organizations, and society to help guide policy-making decisions on the
+wellbeing of their citizens. This report brings together experts from
+various disciplines, including economics, psychology, survey analysis,
+national statistics, health, and public policy, who collaborate to
+demonstrate how well-being measurements can effectively assess a
+nation's progress. By analyzing the current state of happiness
+worldwide, the report offers a comprehensive understanding of personal
+and national variations in happiness, utilizing the emerging field of
+happiness science. This interdisciplinary approach sheds light on the
+factors that contribute to individual and societal well-being,
+ultimately enabling a more informed and evidence-based approach to
+promoting happiness and enhancing overall quality of life across the
+world.</p>
+<p>The happiness scores of different individuals are calculated using a
+survey approach and various factors such as economic production, social
+support, life expectancy, freedom in life choices, perception of
+corruption, and generosity.</p>
+<p>After cleaning, the World Happiness Report dataset has 152 rows and
+12 columns.</p>
+<p>We will categorize each country based on if they are politically
+stable or not based on their political stability index from the website:
+<a
+href="https://www.theglobaleconomy.com/rankings/wb_political_stability"
+class="uri">https://www.theglobaleconomy.com/rankings/wb_political_stability</a>,
+and compare their combined factors that lead to each groups' Life
+Ladder.</p>
+<h3 id="question-of-interest"><strong>Question of
+Interest:</strong></h3>
+<p><em>Question:</em> Based on the World Happiness Report data, which
+factors contribute most to the response variable 'Life Ladder' for
+politically stable and unstable countries from 2010 to 2020, and are
+there differences between the factors that contribute to Life Ladder
+between politically stable and unstable countries from this period?</p>
+</div>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install necessary packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>q geopandas</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2" data-tags="[]">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary packages</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># disable row limit for plotting</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>alt.data_transformers.disable_max_rows()</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># uncomment to ensure graphics display with pdf export</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>alt.renderers.enable(<span class="st">&#39;mimetype&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<pre><code>RendererRegistry.enable(&#39;mimetype&#39;)</code></pre>
+</div>
+</div>
+<section id="data-import" class="cell markdown">
+<h1>Data Import</h1>
+</section>
+<div class="cell code" data-execution_count="3" data-tags="[]">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import dataset</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>whr <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/whr-2023.csv&#39;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>whr.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country name</th>
+      <th>year</th>
+      <th>Life Ladder</th>
+      <th>Log GDP per capita</th>
+      <th>Social support</th>
+      <th>Healthy life expectancy at birth</th>
+      <th>Freedom to make life choices</th>
+      <th>Generosity</th>
+      <th>Perceptions of corruption</th>
+      <th>Positive affect</th>
+      <th>Negative affect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>2008</td>
+      <td>3.724</td>
+      <td>7.350</td>
+      <td>0.451</td>
+      <td>50.5</td>
+      <td>0.718</td>
+      <td>0.168</td>
+      <td>0.882</td>
+      <td>0.414</td>
+      <td>0.258</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Afghanistan</td>
+      <td>2009</td>
+      <td>4.402</td>
+      <td>7.509</td>
+      <td>0.552</td>
+      <td>50.8</td>
+      <td>0.679</td>
+      <td>0.191</td>
+      <td>0.850</td>
+      <td>0.481</td>
+      <td>0.237</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Afghanistan</td>
+      <td>2010</td>
+      <td>4.758</td>
+      <td>7.614</td>
+      <td>0.539</td>
+      <td>51.1</td>
+      <td>0.600</td>
+      <td>0.121</td>
+      <td>0.707</td>
+      <td>0.517</td>
+      <td>0.275</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Afghanistan</td>
+      <td>2011</td>
+      <td>3.832</td>
+      <td>7.581</td>
+      <td>0.521</td>
+      <td>51.4</td>
+      <td>0.496</td>
+      <td>0.164</td>
+      <td>0.731</td>
+      <td>0.480</td>
+      <td>0.267</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Afghanistan</td>
+      <td>2012</td>
+      <td>3.783</td>
+      <td>7.661</td>
+      <td>0.521</td>
+      <td>51.7</td>
+      <td>0.531</td>
+      <td>0.238</td>
+      <td>0.776</td>
+      <td>0.614</td>
+      <td>0.268</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="data-preprocessing-and-cleaning" class="cell markdown"
+data-tags="[]">
+<h1>Data Preprocessing and Cleaning</h1>
+</section>
+<div class="cell markdown">
+<p><strong>In order to answer our Question of Interest, preprocessing
+data is needed for several reasons from our dataset:</strong></p>
+<ul>
+<li>Taking out all NA values for regression and visualization to
+work.</li>
+<li>Filtering out 2010 to 2020 to see a decade span.</li>
+<li>Categorize each country as stable or not stable.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="4" data-tags="[]">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Rename Columns</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>new_dict <span class="op">=</span> {<span class="st">&#39;Country name&#39;</span>: <span class="st">&#39;Country&#39;</span>, </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;year&#39;</span>: <span class="st">&#39;Year&#39;</span>, </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Life Ladder&#39;</span> : <span class="st">&#39;Life Ladder&#39;</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Log GDP per capita&#39;</span>: <span class="st">&#39;Log GDP per Capita&#39;</span>, </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Social support&#39;</span>: <span class="st">&#39;Social Support&#39;</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Healthy life expectancy at birth&#39;</span>: <span class="st">&#39;Life Expectancy&#39;</span>, </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Freedom to make life choices&#39;</span>: <span class="st">&#39;Life Choice Freedom&#39;</span>, </span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Generosity&#39;</span>: <span class="st">&#39;Generosity&#39;</span>, </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Perceptions of corruption&#39;</span>: <span class="st">&#39;Corruption&#39;</span>,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Positive affect&#39;</span>: <span class="st">&#39;Positive Affect&#39;</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Negative affect&#39;</span>: <span class="st">&#39;Negative Affect&#39;</span>}</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co"># specify order of columns</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>new_order <span class="op">=</span> [<span class="st">&#39;Country&#39;</span>, <span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Life Ladder&#39;</span>, <span class="st">&#39;Log GDP per Capita&#39;</span>, <span class="st">&#39;Social Support&#39;</span>, <span class="st">&#39;Life Expectancy&#39;</span>, <span class="st">&#39;Life Choice Freedom&#39;</span>, <span class="st">&#39;Generosity&#39;</span>, <span class="st">&#39;Corruption&#39;</span>, <span class="st">&#39;Positive Affect&#39;</span>, <span class="st">&#39;Negative Affect&#39;</span>]</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="co"># rename and reorder</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>whr <span class="op">=</span> whr.rename(columns<span class="op">=</span>new_dict)[new_order]</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>whr.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Year</th>
+      <th>Life Ladder</th>
+      <th>Log GDP per Capita</th>
+      <th>Social Support</th>
+      <th>Life Expectancy</th>
+      <th>Life Choice Freedom</th>
+      <th>Generosity</th>
+      <th>Corruption</th>
+      <th>Positive Affect</th>
+      <th>Negative Affect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>2008</td>
+      <td>3.724</td>
+      <td>7.350</td>
+      <td>0.451</td>
+      <td>50.5</td>
+      <td>0.718</td>
+      <td>0.168</td>
+      <td>0.882</td>
+      <td>0.414</td>
+      <td>0.258</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Afghanistan</td>
+      <td>2009</td>
+      <td>4.402</td>
+      <td>7.509</td>
+      <td>0.552</td>
+      <td>50.8</td>
+      <td>0.679</td>
+      <td>0.191</td>
+      <td>0.850</td>
+      <td>0.481</td>
+      <td>0.237</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Afghanistan</td>
+      <td>2010</td>
+      <td>4.758</td>
+      <td>7.614</td>
+      <td>0.539</td>
+      <td>51.1</td>
+      <td>0.600</td>
+      <td>0.121</td>
+      <td>0.707</td>
+      <td>0.517</td>
+      <td>0.275</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Afghanistan</td>
+      <td>2011</td>
+      <td>3.832</td>
+      <td>7.581</td>
+      <td>0.521</td>
+      <td>51.4</td>
+      <td>0.496</td>
+      <td>0.164</td>
+      <td>0.731</td>
+      <td>0.480</td>
+      <td>0.267</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Afghanistan</td>
+      <td>2012</td>
+      <td>3.783</td>
+      <td>7.661</td>
+      <td>0.521</td>
+      <td>51.7</td>
+      <td>0.531</td>
+      <td>0.238</td>
+      <td>0.776</td>
+      <td>0.614</td>
+      <td>0.268</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="5" data-tags="[]">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out only to 2010 to 2020 data</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>whr_new <span class="op">=</span> whr[(whr[<span class="st">&#39;Year&#39;</span>] <span class="op">&gt;=</span> <span class="dv">2010</span>) <span class="op">&amp;</span> (whr[<span class="st">&#39;Year&#39;</span>] <span class="op">&lt;=</span> <span class="dv">2020</span>)]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>whr_new.Year.unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>array([2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020])</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="6" data-tags="[]">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if any NA. Drop if there are</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>whr.isna().<span class="bu">sum</span>().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>349</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7" data-tags="[]">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop NA Values</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>whr_new2 <span class="op">=</span> whr_new.dropna()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="8" data-tags="[]">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for any NA</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>whr_new2.isna().<span class="bu">sum</span>().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>0</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9" data-tags="[]">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Group by each country&#39;s mean statistics</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>whr_final <span class="op">=</span> whr_new2.groupby([<span class="st">&#39;Country&#39;</span>]).mean().reset_index().drop(<span class="st">&#39;Year&#39;</span>, axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>whr_final.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Life Ladder</th>
+      <th>Log GDP per Capita</th>
+      <th>Social Support</th>
+      <th>Life Expectancy</th>
+      <th>Life Choice Freedom</th>
+      <th>Generosity</th>
+      <th>Corruption</th>
+      <th>Positive Affect</th>
+      <th>Negative Affect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>3.501000</td>
+      <td>7.643000</td>
+      <td>0.509800</td>
+      <td>52.475000</td>
+      <td>0.482100</td>
+      <td>0.050200</td>
+      <td>0.838800</td>
+      <td>0.478600</td>
+      <td>0.342300</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Albania</td>
+      <td>5.012091</td>
+      <td>9.398364</td>
+      <td>0.696091</td>
+      <td>68.652273</td>
+      <td>0.687636</td>
+      <td>-0.084273</td>
+      <td>0.869364</td>
+      <td>0.564091</td>
+      <td>0.305909</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Algeria</td>
+      <td>5.232833</td>
+      <td>9.340833</td>
+      <td>0.821000</td>
+      <td>66.116667</td>
+      <td>0.516000</td>
+      <td>-0.134167</td>
+      <td>0.708667</td>
+      <td>0.533333</td>
+      <td>0.265500</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Angola</td>
+      <td>4.420250</td>
+      <td>8.985750</td>
+      <td>0.738250</td>
+      <td>52.150000</td>
+      <td>0.456250</td>
+      <td>-0.090500</td>
+      <td>0.866750</td>
+      <td>0.625750</td>
+      <td>0.351250</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Argentina</td>
+      <td>6.352818</td>
+      <td>10.051273</td>
+      <td>0.905000</td>
+      <td>66.804545</td>
+      <td>0.802000</td>
+      <td>-0.170909</td>
+      <td>0.831636</td>
+      <td>0.743091</td>
+      <td>0.281636</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="10" data-tags="[]">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># number of countries in our dataset</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(whr_new2[<span class="st">&#39;Country&#39;</span>].nunique())</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># names of countries in our dataset</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>whr_new2[<span class="st">&#39;Country&#39;</span>].unique()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>152
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>array([&#39;Afghanistan&#39;, &#39;Albania&#39;, &#39;Algeria&#39;, &#39;Angola&#39;, &#39;Argentina&#39;,
+       &#39;Armenia&#39;, &#39;Australia&#39;, &#39;Austria&#39;, &#39;Azerbaijan&#39;, &#39;Bahrain&#39;,
+       &#39;Bangladesh&#39;, &#39;Belarus&#39;, &#39;Belgium&#39;, &#39;Belize&#39;, &#39;Benin&#39;, &#39;Bhutan&#39;,
+       &#39;Bolivia&#39;, &#39;Bosnia and Herzegovina&#39;, &#39;Botswana&#39;, &#39;Brazil&#39;,
+       &#39;Bulgaria&#39;, &#39;Burkina Faso&#39;, &#39;Burundi&#39;, &#39;Cambodia&#39;, &#39;Cameroon&#39;,
+       &#39;Canada&#39;, &#39;Central African Republic&#39;, &#39;Chad&#39;, &#39;Chile&#39;, &#39;Colombia&#39;,
+       &#39;Comoros&#39;, &#39;Congo (Brazzaville)&#39;, &#39;Congo (Kinshasa)&#39;, &#39;Costa Rica&#39;,
+       &#39;Croatia&#39;, &#39;Cyprus&#39;, &#39;Czechia&#39;, &#39;Denmark&#39;, &#39;Djibouti&#39;,
+       &#39;Dominican Republic&#39;, &#39;Ecuador&#39;, &#39;Egypt&#39;, &#39;El Salvador&#39;, &#39;Estonia&#39;,
+       &#39;Eswatini&#39;, &#39;Ethiopia&#39;, &#39;Finland&#39;, &#39;France&#39;, &#39;Gabon&#39;, &#39;Gambia&#39;,
+       &#39;Georgia&#39;, &#39;Germany&#39;, &#39;Ghana&#39;, &#39;Greece&#39;, &#39;Guatemala&#39;, &#39;Guinea&#39;,
+       &#39;Haiti&#39;, &#39;Honduras&#39;, &#39;Hungary&#39;, &#39;Iceland&#39;, &#39;India&#39;, &#39;Indonesia&#39;,
+       &#39;Iran&#39;, &#39;Iraq&#39;, &#39;Ireland&#39;, &#39;Israel&#39;, &#39;Italy&#39;, &#39;Ivory Coast&#39;,
+       &#39;Jamaica&#39;, &#39;Japan&#39;, &#39;Kazakhstan&#39;, &#39;Kenya&#39;, &#39;Kuwait&#39;, &#39;Kyrgyzstan&#39;,
+       &#39;Laos&#39;, &#39;Latvia&#39;, &#39;Lebanon&#39;, &#39;Lesotho&#39;, &#39;Liberia&#39;, &#39;Libya&#39;,
+       &#39;Lithuania&#39;, &#39;Luxembourg&#39;, &#39;Madagascar&#39;, &#39;Malawi&#39;, &#39;Malaysia&#39;,
+       &#39;Mali&#39;, &#39;Malta&#39;, &#39;Mauritania&#39;, &#39;Mauritius&#39;, &#39;Mexico&#39;, &#39;Moldova&#39;,
+       &#39;Mongolia&#39;, &#39;Montenegro&#39;, &#39;Morocco&#39;, &#39;Mozambique&#39;, &#39;Myanmar&#39;,
+       &#39;Namibia&#39;, &#39;Nepal&#39;, &#39;Netherlands&#39;, &#39;New Zealand&#39;, &#39;Nicaragua&#39;,
+       &#39;Niger&#39;, &#39;Nigeria&#39;, &#39;North Macedonia&#39;, &#39;Norway&#39;, &#39;Pakistan&#39;,
+       &#39;Panama&#39;, &#39;Paraguay&#39;, &#39;Peru&#39;, &#39;Philippines&#39;, &#39;Poland&#39;, &#39;Portugal&#39;,
+       &#39;Romania&#39;, &#39;Russia&#39;, &#39;Rwanda&#39;, &#39;Senegal&#39;, &#39;Serbia&#39;, &#39;Sierra Leone&#39;,
+       &#39;Singapore&#39;, &#39;Slovakia&#39;, &#39;Slovenia&#39;, &#39;Somalia&#39;, &#39;South Africa&#39;,
+       &#39;South Korea&#39;, &#39;Spain&#39;, &#39;Sri Lanka&#39;, &#39;State of Palestine&#39;, &#39;Sudan&#39;,
+       &#39;Suriname&#39;, &#39;Sweden&#39;, &#39;Switzerland&#39;, &#39;Syria&#39;,
+       &#39;Taiwan Province of China&#39;, &#39;Tajikistan&#39;, &#39;Tanzania&#39;, &#39;Thailand&#39;,
+       &#39;Togo&#39;, &#39;Trinidad and Tobago&#39;, &#39;Tunisia&#39;, &#39;Turkiye&#39;, &#39;Uganda&#39;,
+       &#39;Ukraine&#39;, &#39;United Arab Emirates&#39;, &#39;United Kingdom&#39;,
+       &#39;United States&#39;, &#39;Uruguay&#39;, &#39;Uzbekistan&#39;, &#39;Venezuela&#39;, &#39;Vietnam&#39;,
+       &#39;Yemen&#39;, &#39;Zambia&#39;, &#39;Zimbabwe&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Categorize unstable countries in our dataset to this list</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>unstable_countries <span class="op">=</span> [<span class="st">&#39;Albania&#39;</span>, <span class="st">&#39;Algeria&#39;</span>, <span class="st">&#39;Afghanistan&#39;</span>, <span class="st">&#39;Angola&#39;</span>, <span class="st">&#39;Armenia&#39;</span>, <span class="st">&#39;Belarus&#39;</span>, <span class="st">&#39;Belize&#39;</span>, <span class="st">&#39;Bolivia&#39;</span>, </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Bosnia and Herzegovina&#39;</span>, <span class="st">&#39;Burkina Faso&#39;</span>, <span class="st">&#39;Burundi&#39;</span>, <span class="st">&#39;Cambodia&#39;</span>, <span class="st">&#39;Cameroon&#39;</span>, <span class="st">&#39;Central African Republic&#39;</span>,</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Chad&#39;</span>, <span class="st">&#39;Chile&#39;</span>, <span class="st">&#39;Colombia&#39;</span>, <span class="st">&#39;Comoros&#39;</span>, <span class="st">&#39;Congo (Brazzaville)&#39;</span>, <span class="st">&#39;Congo (Kinshasa)&#39;</span>, <span class="st">&#39;Costa Rica&#39;</span>, <span class="st">&#39;Cyprus&#39;</span>, </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Djibouti&#39;</span>, <span class="st">&#39;Dominican Republic&#39;</span>, <span class="st">&#39;Ecuador&#39;</span>, <span class="st">&#39;Egypt&#39;</span>, <span class="st">&#39;El Salvador&#39;</span>, <span class="st">&#39;Ethiopia&#39;</span>, <span class="st">&#39;Guinea&#39;</span>, <span class="st">&#39;Haiti&#39;</span>, </span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Honduras&#39;</span>, <span class="st">&#39;Iran&#39;</span>, <span class="st">&#39;Iraq&#39;</span>, <span class="st">&#39;Israel&#39;</span>, <span class="st">&#39;Lebanon&#39;</span>,<span class="st">&#39;Libya&#39;</span>, <span class="st">&#39;Madagascar&#39;</span>, </span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Mali&#39;</span>, <span class="st">&#39;Moldova&#39;</span>, <span class="st">&#39;Montenegro&#39;</span>, <span class="st">&#39;Mozambique&#39;</span>, <span class="st">&#39;Myanmar&#39;</span>, <span class="st">&#39;Niger&#39;</span>, <span class="st">&#39;Nigeria&#39;</span>, <span class="st">&#39;North Macedonia&#39;</span>, <span class="st">&#39;Pakistan&#39;</span>, </span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Philippines&#39;</span>, <span class="st">&#39;Russia&#39;</span>, <span class="st">&#39;Rwanda&#39;</span>, <span class="st">&#39;Sierra Leone&#39;</span>, <span class="st">&#39;Somalia&#39;</span>, <span class="st">&#39;South Africa&#39;</span>, <span class="st">&#39;State of Palestine&#39;</span>,</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Sudan&#39;</span>, <span class="st">&#39;Syria&#39;</span>, <span class="st">&#39;Tajikistan&#39;</span>, <span class="st">&#39;Tunisia&#39;</span>, <span class="st">&#39;Turkiye&#39;</span>, <span class="st">&#39;Uganda&#39;</span>, <span class="st">&#39;Ukraine&#39;</span>, </span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&#39;Uzbekistan&#39;</span>, <span class="st">&#39;Venezuela&#39;</span>, <span class="st">&#39;Yemen&#39;</span>, <span class="st">&#39;Zambia&#39;</span>, <span class="st">&#39;Zimbabwe&#39;</span>]</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Categorize stable countries in our dataset to this list</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>stable_countries <span class="op">=</span> [<span class="st">&#39;Argentina&#39;</span>, <span class="st">&#39;Australia&#39;</span>, <span class="st">&#39;Austria&#39;</span>, <span class="st">&#39;Azerbaijan&#39;</span>, <span class="st">&#39;Bahrain&#39;</span>, <span class="st">&#39;Bangladesh&#39;</span>, <span class="st">&#39;Belgium&#39;</span>, <span class="st">&#39;Benin&#39;</span>,</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Bhutan&#39;</span>, <span class="st">&#39;Botswana&#39;</span>, <span class="st">&#39;Brazil&#39;</span>, <span class="st">&#39;Bulgaria&#39;</span>, <span class="st">&#39;Canada&#39;</span>, <span class="st">&#39;Croatia&#39;</span>, <span class="st">&#39;Czechia&#39;</span>, <span class="st">&#39;Denmark&#39;</span>, </span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Estonia&#39;</span>, <span class="st">&#39;Eswatini&#39;</span>, <span class="st">&#39;Finland&#39;</span>, <span class="st">&#39;France&#39;</span>, <span class="st">&#39;Gabon&#39;</span>, <span class="st">&#39;Gambia&#39;</span>, <span class="st">&#39;Georgia&#39;</span>, <span class="st">&#39;Germany&#39;</span>, <span class="st">&#39;Ghana&#39;</span>, <span class="st">&#39;Greece&#39;</span>,</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Guatemala&#39;</span>, <span class="st">&#39;Hungary&#39;</span>, <span class="st">&#39;Iceland&#39;</span>, <span class="st">&#39;India&#39;</span>, <span class="st">&#39;Indonesia&#39;</span>, <span class="st">&#39;Ireland&#39;</span>, <span class="st">&#39;Italy&#39;</span>, <span class="st">&#39;Ivory Coast&#39;</span>,</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Jamaica&#39;</span>, <span class="st">&#39;Japan&#39;</span>, <span class="st">&#39;Kazakhstan&#39;</span>, <span class="st">&#39;Kenya&#39;</span>, <span class="st">&#39;Kuwait&#39;</span>, <span class="st">&#39;Kyrgyzstan&#39;</span>, <span class="st">&#39;Laos&#39;</span>, <span class="st">&#39;Latvia&#39;</span>, <span class="st">&#39;Lesotho&#39;</span>,</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Liberia&#39;</span>, <span class="st">&#39;Lithuania&#39;</span>, <span class="st">&#39;Luxembourg&#39;</span>, <span class="st">&#39;Malawi&#39;</span>, <span class="st">&#39;Malaysia&#39;</span>, <span class="st">&#39;Malta&#39;</span>, <span class="st">&#39;Mauritania&#39;</span>, <span class="st">&#39;Mauritius&#39;</span>, <span class="st">&#39;Mexico&#39;</span>,</span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Mongolia&#39;</span>, <span class="st">&#39;Morocco&#39;</span>, <span class="st">&#39;Namibia&#39;</span>, <span class="st">&#39;Nepal&#39;</span>, <span class="st">&#39;Netherlands&#39;</span>, <span class="st">&#39;New Zealand&#39;</span>, <span class="st">&#39;Nicaragua&#39;</span>, <span class="st">&#39;Norway&#39;</span>, <span class="st">&#39;Panama&#39;</span>,</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Paraguay&#39;</span>, <span class="st">&#39;Peru&#39;</span>, <span class="st">&#39;Poland&#39;</span>, <span class="st">&#39;Portugal&#39;</span>, <span class="st">&#39;Romania&#39;</span>, <span class="st">&#39;Senegal&#39;</span>, <span class="st">&#39;Serbia&#39;</span>,</span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Singapore&#39;</span>, <span class="st">&#39;Slovakia&#39;</span>, <span class="st">&#39;Slovenia&#39;</span>, <span class="st">&#39;South Korea&#39;</span>, <span class="st">&#39;Spain&#39;</span>, <span class="st">&#39;Sri Lanka&#39;</span>,  </span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;Suriname&#39;</span>, <span class="st">&#39;Sweden&#39;</span>, <span class="st">&#39;Switzerland&#39;</span>, <span class="st">&#39;Taiwan Province of China&#39;</span>, <span class="st">&#39;Tanzania&#39;</span>, <span class="st">&#39;Thailand&#39;</span>, <span class="st">&#39;Togo&#39;</span>, <span class="st">&#39;Trinidad and Tobago&#39;</span>,</span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;United Arab Emirates&#39;</span>, <span class="st">&#39;United Kingdom&#39;</span>, <span class="st">&#39;United States&#39;</span>, <span class="st">&#39;Uruguay&#39;</span>, <span class="st">&#39;Vietnam&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># number of unstable countries</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>num_entries <span class="op">=</span> <span class="bu">len</span>(unstable_countries)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(num_entries)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>65
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13" data-tags="[]">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Number of stable countries</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>num_entries2 <span class="op">=</span> <span class="bu">len</span>(stable_countries)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(num_entries2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>87
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add column classifying political stability of a country</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_political_stability(country):</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> country <span class="kw">in</span> unstable_countries:</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Unstable&#39;</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">&#39;Stable&#39;</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>whr_final.loc[:, <span class="st">&#39;Political Stability&#39;</span>] <span class="op">=</span> whr_final[<span class="st">&#39;Country&#39;</span>].<span class="bu">apply</span>(get_political_stability)</span></code></pre></div>
+</div>
+<section id="exploratory-data-analysis" class="cell markdown">
+<h1>Exploratory Data Analysis:</h1>
+</section>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Ignore deprecated warning:</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge a world&#39;s coordinate to visualize on a global map</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>world <span class="op">=</span> gpd.read_file(gpd.datasets.get_path(<span class="st">&#39;naturalearth_lowres&#39;</span>))</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>world[<span class="st">&#39;name&#39;</span>] <span class="op">=</span> world[<span class="st">&#39;name&#39;</span>].replace(<span class="st">&#39;United States of America&#39;</span>, <span class="st">&#39;United States&#39;</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> whr.groupby([<span class="st">&#39;Country&#39;</span>]).mean(numeric_only <span class="op">=</span> <span class="va">True</span>).reset_index()</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>df.loc[:, <span class="st">&#39;Internal Political Stability&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Country&#39;</span>].<span class="bu">apply</span>(get_political_stability)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>merged <span class="op">=</span> world.merge(df, left_on<span class="op">=</span><span class="st">&#39;name&#39;</span>, right_on<span class="op">=</span><span class="st">&#39;Country&#39;</span>, how<span class="op">=</span><span class="st">&#39;left&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># life ladder levels by country</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>merged.plot(column<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>, linewidth<span class="op">=</span><span class="fl">0.8</span>, ax<span class="op">=</span>ax, edgecolor<span class="op">=</span><span class="st">&#39;0.8&#39;</span>, legend<span class="op">=</span><span class="va">True</span>, legend_kwds<span class="op">=</span>{<span class="st">&#39;label&#39;</span>: <span class="st">&#39;Life Ladder Level&#39;</span>})</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&#39;Life Ladder by Country&#39;</span>) <span class="co"># </span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&#39;Longitude&#39;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&#39;Latitude&#39;</span>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_eb99bdcbb4de41409c3f215ed8b0817e/0f07efda028f9c4d03fc43a8d267da873d386d71.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Our visualization shows the average life ladder levels for each
+country from 2010 to 2020 on the global map, where the darker the shade
+of blue, the higher the life ladder is for that country.</p>
+<p>We can see that life ladder is unsurprisingly high for the North
+American, Western and North European countries, and Australia, since
+they are well-off countries with not much political or economic
+instabilities. Meanwhile, countries in Africa have very low levels of
+life ladders, which could have been through numerous factors but mainly
+in the economic and political aspect.</p>
+<p>Suprisingly, we see South America with a fairly high life ladder, but
+overall, our life ladder levels reflect our perception of the economic
+and political situations of certain continents on the map.</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># political stability for each country</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>merged.plot(column<span class="op">=</span><span class="st">&#39;Internal Political Stability&#39;</span>, cmap<span class="op">=</span><span class="st">&#39;Reds&#39;</span>, linewidth<span class="op">=</span><span class="fl">0.8</span>, ax<span class="op">=</span>ax, edgecolor<span class="op">=</span><span class="st">&#39;0.8&#39;</span>, legend<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&#39;Longitude&#39;</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&#39;Latitude&#39;</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&#39;Political Stability By Country&#39;</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_eb99bdcbb4de41409c3f215ed8b0817e/276428179aa91e265f405bb1d11ba899219065ba.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Our visualization shows the political stability of the country from
+2010 to 2020 on the global map. This is a binary classification with
+just two results: A lighter red represents the country is stable, while
+the Darker country represents the country is unstable politically.</p>
+<p>Interestingly enough, we see some South American countries under
+unstable political conditions, but these countries actually have
+relatively high life ladder levels as shown in our previous
+visualization. It does seem like</p>
+<p>Now, we will visualize using numerical rather than graphical analysis
+to delve deeper into whether political stability really affects life
+ladder levels.</p>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Average life ladder for stable and unstable countries</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>stable_avg <span class="op">=</span> whr_final[whr_final[<span class="st">&#39;Political Stability&#39;</span>] <span class="op">==</span> <span class="st">&#39;Stable&#39;</span>] <span class="co"># setting data to stable</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Average Life Ladder for Stable Countries is:&#39;</span>, stable_avg[<span class="st">&#39;Life Ladder&#39;</span>].mean()) <span class="co"># average life ladder for stable countries</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>unstable_avg <span class="op">=</span> whr_final[whr_final[<span class="st">&#39;Political Stability&#39;</span>] <span class="op">==</span> <span class="st">&#39;Unstable&#39;</span>] <span class="co"># setting data to unstable</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Average Life Ladder for Unstable Countries is:&#39;</span>, unstable_avg[<span class="st">&#39;Life Ladder&#39;</span>].mean()) <span class="co"># average life ladder for unstable countries</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Average Life Ladder for Stable Countries is: 5.78752622903916
+
+Average Life Ladder for Unstable Countries is: 4.869797393162393
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19" data-tags="[]">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># boxplot distribution of stable and unstable countries across life ladder</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>boxplot <span class="op">=</span> alt.Chart(whr_final).mark_boxplot(size<span class="op">=</span><span class="dv">80</span>).encode(</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">&#39;Political Stability&#39;</span>,</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span>alt.Y(<span class="st">&#39;Life Ladder&#39;</span>, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>), title<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>),</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>).properties(</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span><span class="dv">300</span>,</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">300</span>,</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>    title<span class="op">=</span><span class="st">&#39;Life Ladder Levels (Stable vs Unstable)&#39;</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>boxplot</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<p><img
+src="vertopal_eb99bdcbb4de41409c3f215ed8b0817e/a2aef73aadc1871f52a25d9de45888af0476def6.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Now that we created a statistical visualization, we see the median of
+a stable countries' life ladder is around 5.8, with 75% of those
+countries having life ladders between 4.89 to 6.63. On the other hand,
+we see a median life ladder level of unstable countries as 4.73, with
+75% of these countries having life ladders between 4.31 and 7.24.</p>
+<p>This is quite a big difference in Life Ladder levels based on the
+political stability of the country based on this boxplot, where stable
+countries have a higher life ladder level.</p>
+</div>
+<div class="cell code" data-execution_count="20" data-tags="[]">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># histogram of life ladder for stable and unstable countries</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>histogram <span class="op">=</span> alt.Chart(whr_final).mark_bar().encode(</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>alt.X(<span class="st">&#39;Life Ladder&#39;</span>, <span class="bu">bin</span><span class="op">=</span>alt.Bin(maxbins<span class="op">=</span><span class="dv">20</span>), title<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>),</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">&#39;count()&#39;</span>,</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span><span class="st">&#39;Political Stability:N&#39;</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="co"># display both histograms by facet</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>histogram.properties(</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span><span class="dv">400</span>,</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">300</span>,</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    title<span class="op">=</span><span class="st">&#39;Histogram of Life Ladder Levels (Stable vs Unstable)&#39;</span></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>).facet(</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>    column<span class="op">=</span>alt.Column(<span class="st">&#39;Political Stability:N&#39;</span>, title<span class="op">=</span><span class="st">&#39;Political Stability&#39;</span>)</span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<p><img
+src="vertopal_eb99bdcbb4de41409c3f215ed8b0817e/39e9f9eb9b8a3fcdd3f4d81155b313e91c38a41b.png" /></p>
+</div>
+</div>
+<div class="cell markdown" data-tags="[]">
+<p>Our stable countries' histogram shows a normal-like distribution,
+with the center revolved around a life ladder between 5.5 to 6.0.
+However, for our unstable countries' histogram, we see a slightly right
+skewed distribution, with most of the countries between the 4.0 to 4.5
+life level values. Once again, our visualization shows around a slightly
+higher life ladder level of stable countries than unstable
+countries.</p>
+</div>
+<div class="cell markdown">
+<p>Now, we will analyze each group (Stable vs Unstable) on its own and
+visualize their trends of life ladder levels vs the other variables in
+the dataset:</p>
+</div>
+<div class="cell code" data-execution_count="21" data-tags="[]">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># categorizing data into stable and unstable countries</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>stable_data <span class="op">=</span> whr_final[whr_final[<span class="st">&#39;Political Stability&#39;</span>] <span class="op">==</span> <span class="st">&#39;Stable&#39;</span>] <span class="co"># stable countries data</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>unstable_data <span class="op">=</span> whr_final[whr_final[<span class="st">&#39;Political Stability&#39;</span>] <span class="op">==</span> <span class="st">&#39;Unstable&#39;</span>] <span class="co"># unstable countries data</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a><span class="co"># List of variables</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [<span class="st">&#39;Log GDP per Capita&#39;</span>, <span class="st">&#39;Social Support&#39;</span>, <span class="st">&#39;Life Expectancy&#39;</span>,</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>             <span class="st">&#39;Life Choice Freedom&#39;</span>, <span class="st">&#39;Generosity&#39;</span>, <span class="st">&#39;Corruption&#39;</span>,</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>             <span class="st">&#39;Positive Affect&#39;</span>, <span class="st">&#39;Negative Affect&#39;</span>]</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatterplots and Line plots - stable and unstable countries</span></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>plots <span class="op">=</span> []</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> var <span class="kw">in</span> variables:</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>    scatter_stable <span class="op">=</span> alt.Chart(stable_data).mark_circle().encode(</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span>alt.X(var, title<span class="op">=</span>var, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)),</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span>alt.Y(<span class="st">&#39;Life Ladder&#39;</span>, title<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)),</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>        color<span class="op">=</span>alt.ColorValue(<span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>    scatter_unstable <span class="op">=</span> alt.Chart(unstable_data).mark_circle().encode(</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span>alt.X(var, title<span class="op">=</span>var, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)),</span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span>alt.Y(<span class="st">&#39;Life Ladder&#39;</span>, title<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)),</span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>        color<span class="op">=</span>alt.ColorValue(<span class="st">&#39;red&#39;</span>)</span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>    line_stable <span class="op">=</span> alt.Chart(stable_data).transform_loess(</span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a>        var, <span class="st">&#39;Life Ladder&#39;</span>, groupby<span class="op">=</span>[<span class="st">&#39;Political Stability&#39;</span>], bandwidth<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a>    ).mark_line().encode(</span>
+<span id="cb30-28"><a href="#cb30-28" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span>alt.X(var, title<span class="op">=</span>var),</span>
+<span id="cb30-29"><a href="#cb30-29" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span>alt.Y(<span class="st">&#39;Life Ladder&#39;</span>, title<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>),</span>
+<span id="cb30-30"><a href="#cb30-30" aria-hidden="true" tabindex="-1"></a>        color<span class="op">=</span>alt.ColorValue(<span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb30-31"><a href="#cb30-31" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb30-32"><a href="#cb30-32" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-33"><a href="#cb30-33" aria-hidden="true" tabindex="-1"></a>    line_unstable <span class="op">=</span> alt.Chart(unstable_data).transform_loess(</span>
+<span id="cb30-34"><a href="#cb30-34" aria-hidden="true" tabindex="-1"></a>        var, <span class="st">&#39;Life Ladder&#39;</span>, groupby<span class="op">=</span>[<span class="st">&#39;Political Stability&#39;</span>], bandwidth<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb30-35"><a href="#cb30-35" aria-hidden="true" tabindex="-1"></a>    ).mark_line().encode(</span>
+<span id="cb30-36"><a href="#cb30-36" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span>alt.X(var, title<span class="op">=</span>var),</span>
+<span id="cb30-37"><a href="#cb30-37" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span>alt.Y(<span class="st">&#39;Life Ladder&#39;</span>, title<span class="op">=</span><span class="st">&#39;Life Ladder&#39;</span>),</span>
+<span id="cb30-38"><a href="#cb30-38" aria-hidden="true" tabindex="-1"></a>        color<span class="op">=</span>alt.ColorValue(<span class="st">&#39;red&#39;</span>)</span>
+<span id="cb30-39"><a href="#cb30-39" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb30-40"><a href="#cb30-40" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-41"><a href="#cb30-41" aria-hidden="true" tabindex="-1"></a>    plot <span class="op">=</span> alt.layer(scatter_stable, scatter_unstable, line_stable, line_unstable).resolve_scale(color<span class="op">=</span><span class="st">&#39;independent&#39;</span>).properties(</span>
+<span id="cb30-42"><a href="#cb30-42" aria-hidden="true" tabindex="-1"></a>        width<span class="op">=</span><span class="dv">180</span>, height<span class="op">=</span><span class="dv">180</span>  <span class="co"># Adjust the width and height of each plot</span></span>
+<span id="cb30-43"><a href="#cb30-43" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb30-44"><a href="#cb30-44" aria-hidden="true" tabindex="-1"></a>    plots.append(plot)</span>
+<span id="cb30-45"><a href="#cb30-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-46"><a href="#cb30-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine plots in a 2x4 matrix layout</span></span>
+<span id="cb30-47"><a href="#cb30-47" aria-hidden="true" tabindex="-1"></a>grid_plots <span class="op">=</span> alt.vconcat(<span class="op">*</span>[alt.hconcat(<span class="op">*</span>plots[i:i<span class="op">+</span><span class="dv">4</span>]) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(plots), <span class="dv">4</span>)])</span>
+<span id="cb30-48"><a href="#cb30-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-49"><a href="#cb30-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the grid of plots</span></span>
+<span id="cb30-50"><a href="#cb30-50" aria-hidden="true" tabindex="-1"></a>grid_plots</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<p><img
+src="vertopal_eb99bdcbb4de41409c3f215ed8b0817e/55a1eefea79aaa334638a3c7721976397ca97dcf.png" /></p>
+</div>
+</div>
+<div class="cell markdown" data-tags="[]">
+<p><strong>In this visualization, Blue represents Stable Country, and
+Red Represents Unstable Country.</strong></p>
+</div>
+<div class="cell markdown">
+<p>As seen in the scatterplots above, there seems to be a positive trend
+between <strong>Life Ladder</strong> and the following variables:
+<strong>Log GDP per capita</strong>, <strong>social support</strong>,
+<strong>life expectancy</strong> for both colors. This means that these
+variables affect life ladder levels regardless of political stability.
+For example, As the amount of Social Support increases, Life Ladder
+increases in both unstable and stable countries.</p>
+<p>When comparing <strong>Life Ladder</strong> Levels to
+<strong>Generosity</strong> both colors have no trends as according to
+their scattered, non-linear point distribution. This means that
+<strong>Generosity</strong> doesn't have much of an affect on Life
+Ladder levels regardless of political stability.</p>
+<p>When comparing <strong>Life Ladder</strong> Levels to
+<strong>Corruption</strong>, we don't see any relationship for the
+Unstable country, which means corruption levels have no effect on Life
+Ladder levels in Unstable countries. However, we see a big effect on
+stable countries as we see a decreasing trend of <strong>Life
+Ladder</strong> levels as <strong>Corruption</strong> increases for
+Stable countries. The same goes for <strong>Negative Affect</strong>, as
+there isn't much trends in unstable countries, but for stable countries,
+a <strong>Negative Affect</strong> increase decreases <strong>Life
+Ladder</strong> levels. This is the opposite vice versa for
+<strong>Positive Affect</strong> for stable countries (Higher
+<strong>Positive Affect</strong> = Higher <strong>Life Ladder</strong>),
+and again, not much trend for unstable countries.</p>
+</div>
+<div class="cell markdown">
+<p>Now, let's compare their correlations to see their differences in the
+heatmap:</p>
+</div>
+<div class="cell code" data-execution_count="22" data-tags="[]">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># heatmap of stable countries factors</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="co"># assessing correlations of numerical variables</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>corr_stable <span class="op">=</span> stable_data.drop(columns <span class="op">=</span> [<span class="st">&#39;Country&#39;</span>, <span class="st">&#39;Political Stability&#39;</span>]).corr() <span class="co"># drop categorical variables, take correlation values</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="co"># melt</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>corr_stable_long <span class="op">=</span> corr_stable.reset_index().rename(</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    columns <span class="op">=</span> {<span class="st">&#39;index&#39;</span>: <span class="st">&#39;row&#39;</span>}</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>).melt(</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>    id_vars <span class="op">=</span> <span class="st">&#39;row&#39;</span>,</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>    var_name <span class="op">=</span> <span class="st">&#39;col&#39;</span>,</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    value_name <span class="op">=</span> <span class="st">&#39;Correlation&#39;</span></span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a><span class="co"># heatmap of unstable countries factors</span></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a><span class="co"># assessing correlations of numerical variables</span></span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>corr_unstable <span class="op">=</span> unstable_data.drop(columns <span class="op">=</span> [<span class="st">&#39;Country&#39;</span>, <span class="st">&#39;Political Stability&#39;</span>]).corr() <span class="co"># drop categorical variables, take correlation values</span></span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a><span class="co"># melt</span></span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>corr_unstable_long <span class="op">=</span> corr_unstable.reset_index().rename(</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>    columns <span class="op">=</span> {<span class="st">&#39;index&#39;</span>: <span class="st">&#39;row&#39;</span>}</span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a>).melt(</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>    id_vars <span class="op">=</span> <span class="st">&#39;row&#39;</span>,</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>    var_name <span class="op">=</span> <span class="st">&#39;col&#39;</span>,</span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>    value_name <span class="op">=</span> <span class="st">&#39;Correlation&#39;</span></span>
+<span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Construct heatmap plot for stable countries</span></span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a>h1 <span class="op">=</span> alt.Chart(corr_stable_long).mark_rect().encode(</span>
+<span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>alt.X(<span class="st">&#39;col&#39;</span>, title<span class="op">=</span><span class="st">&#39;&#39;</span>),</span>
+<span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span>alt.Y(<span class="st">&#39;row&#39;</span>, title<span class="op">=</span><span class="st">&#39;&#39;</span>),</span>
+<span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span>alt.Color(<span class="st">&#39;Correlation&#39;</span>,</span>
+<span id="cb31-32"><a href="#cb31-32" aria-hidden="true" tabindex="-1"></a>                    scale<span class="op">=</span>alt.Scale(scheme<span class="op">=</span><span class="st">&#39;blueorange&#39;</span>, domain<span class="op">=</span>(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>), <span class="bu">type</span><span class="op">=</span><span class="st">&#39;sqrt&#39;</span>),</span>
+<span id="cb31-33"><a href="#cb31-33" aria-hidden="true" tabindex="-1"></a>                    legend<span class="op">=</span>alt.Legend(tickCount<span class="op">=</span><span class="dv">5</span>))</span>
+<span id="cb31-34"><a href="#cb31-34" aria-hidden="true" tabindex="-1"></a>).properties(</span>
+<span id="cb31-35"><a href="#cb31-35" aria-hidden="true" tabindex="-1"></a>    title<span class="op">=</span><span class="st">&#39;Stable Countries&#39;</span>,  <span class="co"># Add title for h1</span></span>
+<span id="cb31-36"><a href="#cb31-36" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span><span class="dv">300</span>,</span>
+<span id="cb31-37"><a href="#cb31-37" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">300</span></span>
+<span id="cb31-38"><a href="#cb31-38" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb31-39"><a href="#cb31-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-40"><a href="#cb31-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Construct heatmap plot for unstable countries</span></span>
+<span id="cb31-41"><a href="#cb31-41" aria-hidden="true" tabindex="-1"></a>h2 <span class="op">=</span> alt.Chart(corr_unstable_long).mark_rect().encode(</span>
+<span id="cb31-42"><a href="#cb31-42" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>alt.X(<span class="st">&#39;col&#39;</span>, title<span class="op">=</span><span class="st">&#39;&#39;</span>),</span>
+<span id="cb31-43"><a href="#cb31-43" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span>alt.Y(<span class="st">&#39;row&#39;</span>, title<span class="op">=</span><span class="st">&#39;&#39;</span>),</span>
+<span id="cb31-44"><a href="#cb31-44" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span>alt.Color(<span class="st">&#39;Correlation&#39;</span>,</span>
+<span id="cb31-45"><a href="#cb31-45" aria-hidden="true" tabindex="-1"></a>                    scale<span class="op">=</span>alt.Scale(scheme<span class="op">=</span><span class="st">&#39;blueorange&#39;</span>, domain<span class="op">=</span>(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>), <span class="bu">type</span><span class="op">=</span><span class="st">&#39;sqrt&#39;</span>),</span>
+<span id="cb31-46"><a href="#cb31-46" aria-hidden="true" tabindex="-1"></a>                    legend<span class="op">=</span>alt.Legend(tickCount<span class="op">=</span><span class="dv">5</span>))</span>
+<span id="cb31-47"><a href="#cb31-47" aria-hidden="true" tabindex="-1"></a>).properties(</span>
+<span id="cb31-48"><a href="#cb31-48" aria-hidden="true" tabindex="-1"></a>    title<span class="op">=</span><span class="st">&#39;Unstable Countries&#39;</span>,  <span class="co"># Add title for h2</span></span>
+<span id="cb31-49"><a href="#cb31-49" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span><span class="dv">300</span>,</span>
+<span id="cb31-50"><a href="#cb31-50" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">300</span></span>
+<span id="cb31-51"><a href="#cb31-51" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb31-52"><a href="#cb31-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-53"><a href="#cb31-53" aria-hidden="true" tabindex="-1"></a>h1 <span class="op">|</span> h2</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<p><img
+src="vertopal_eb99bdcbb4de41409c3f215ed8b0817e/162dea9b137472646c4cb2141c5ea10af69f5359.png" /></p>
+</div>
+</div>
+<div class="cell markdown" data-tags="[]">
+<p>The correlation heatmaps for both groups look significantly different
+in colors, so let's focus mainly on the Life Ladder correlations for
+both countries. We can see that Life Expectancy to
+<strong>Corruption</strong>, <strong>Generosity</strong> are opposite in
+correlations between Stable and Unstable. This supports our above plot,
+where we see opposite trends or no correlations in the unstable
+countries. The other variables have the same correlation sign for both
+stable and unstable.</p>
+</div>
+<section id="regression" class="cell markdown">
+<h1>Regression</h1>
+</section>
+<div class="cell markdown">
+<p>The goal of performing regression analysis in our context of our
+question of interest is to gain insights into the relationship between
+the factors that contribute to the well-being of individuals for both
+politically stable and unstable countries. By performing a multiple
+linear regression analysis, it allows us to quantify the impact of the
+independent variables on the dependent variable 'Life Ladder'. By
+examining the coefficients and statistical significance of these
+variables, we can assess their contributions to both stable and unstable
+countries.</p>
+<p>In this analysis, we are specifically interested in understanding how
+factors such as Log GDP per Capita, Social Support, Life Expectancy,
+Life Choice Freedom, Generosity, perceptions of Corruption, and
+positive/negative affect may influence an individual's subjective
+well-being. By exploring the relationships between these variables and
+the "Life Ladder" measure, we aim to identify significant coefficient
+estimates and seek any differences between stable and unstable
+countries.</p>
+</div>
+<div class="cell code" data-execution_count="23" data-tags="[]">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># mlr - stable countries</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>X1 <span class="op">=</span> stable_data[[<span class="st">&#39;Log GDP per Capita&#39;</span>, <span class="st">&#39;Social Support&#39;</span>, <span class="st">&#39;Life Expectancy&#39;</span>, <span class="st">&#39;Life Choice Freedom&#39;</span>, <span class="st">&#39;Generosity&#39;</span>, <span class="st">&#39;Corruption&#39;</span>, <span class="st">&#39;Positive Affect&#39;</span>, <span class="st">&#39;Negative Affect&#39;</span>]]</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"># add constants to the design matrix</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>X1 <span class="op">=</span> sm.add_constant(X1)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> stable_data[<span class="st">&#39;Life Ladder&#39;</span>]</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="co"># fit multiple linear regression model for stable countries</span></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>mlr_stable <span class="op">=</span> sm.OLS(y1, X1)</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>rslt_stable <span class="op">=</span> mlr_stable.fit()</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create dataframe of coefficients and std error</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>coef_stable <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;estimate&#39;</span>: rslt_stable.params,</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;std. error&#39;</span>: np.sqrt(rslt_stable.cov_params().values.diagonal())</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>}, index <span class="op">=</span> X1.columns.values</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimated Error variance</span></span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a>coef_stable.loc[<span class="st">&#39;Stable error variance&#39;</span>, <span class="st">&#39;estimate&#39;</span>] <span class="op">=</span> rslt_stable.scale</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a><span class="co"># mlr - unstable countries</span></span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a>X2 <span class="op">=</span> unstable_data[[<span class="st">&#39;Log GDP per Capita&#39;</span>, <span class="st">&#39;Social Support&#39;</span>, <span class="st">&#39;Life Expectancy&#39;</span>, <span class="st">&#39;Life Choice Freedom&#39;</span>, <span class="st">&#39;Generosity&#39;</span>, <span class="st">&#39;Corruption&#39;</span>, <span class="st">&#39;Positive Affect&#39;</span>, <span class="st">&#39;Negative Affect&#39;</span>]]</span>
+<span id="cb32-26"><a href="#cb32-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-27"><a href="#cb32-27" aria-hidden="true" tabindex="-1"></a><span class="co"># add constants to the design matrix</span></span>
+<span id="cb32-28"><a href="#cb32-28" aria-hidden="true" tabindex="-1"></a>X2 <span class="op">=</span> sm.add_constant(X2)</span>
+<span id="cb32-29"><a href="#cb32-29" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> unstable_data[<span class="st">&#39;Life Ladder&#39;</span>]</span>
+<span id="cb32-30"><a href="#cb32-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-31"><a href="#cb32-31" aria-hidden="true" tabindex="-1"></a><span class="co"># fit multiple linear regression model for stable countries</span></span>
+<span id="cb32-32"><a href="#cb32-32" aria-hidden="true" tabindex="-1"></a>mlr_unstable <span class="op">=</span> sm.OLS(y2, X2)</span>
+<span id="cb32-33"><a href="#cb32-33" aria-hidden="true" tabindex="-1"></a>rslt_unstable <span class="op">=</span> mlr_unstable.fit()</span>
+<span id="cb32-34"><a href="#cb32-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-35"><a href="#cb32-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Create dataframe of coefficients and std error</span></span>
+<span id="cb32-36"><a href="#cb32-36" aria-hidden="true" tabindex="-1"></a>coef_unstable <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb32-37"><a href="#cb32-37" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;estimate2&#39;</span>: rslt_unstable.params,</span>
+<span id="cb32-38"><a href="#cb32-38" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;std. error2&#39;</span>: np.sqrt(rslt_unstable.cov_params().values.diagonal())</span>
+<span id="cb32-39"><a href="#cb32-39" aria-hidden="true" tabindex="-1"></a>}, index <span class="op">=</span> X2.columns.values</span>
+<span id="cb32-40"><a href="#cb32-40" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb32-41"><a href="#cb32-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-42"><a href="#cb32-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimated Error variance</span></span>
+<span id="cb32-43"><a href="#cb32-43" aria-hidden="true" tabindex="-1"></a>coef_unstable.loc[<span class="st">&#39;Unstable error variance&#39;</span>, <span class="st">&#39;estimate2&#39;</span>] <span class="op">=</span> rslt_unstable.scale</span>
+<span id="cb32-44"><a href="#cb32-44" aria-hidden="true" tabindex="-1"></a>both_tables <span class="op">=</span> pd.concat([coef_stable, coef_unstable], axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb32-45"><a href="#cb32-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-46"><a href="#cb32-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Change column names for better look</span></span>
+<span id="cb32-47"><a href="#cb32-47" aria-hidden="true" tabindex="-1"></a>new_column_names <span class="op">=</span> {<span class="st">&#39;estimate&#39;</span>: <span class="st">&#39;Stable Coefficients&#39;</span>, <span class="st">&#39;std. error&#39;</span>: <span class="st">&#39;Stable std. error&#39;</span>, <span class="st">&#39;estimate2&#39;</span>: <span class="st">&#39;Unstable Coefficients&#39;</span>, <span class="st">&#39;std. error2&#39;</span>: <span class="st">&#39;Unstable std. error&#39;</span>}</span>
+<span id="cb32-48"><a href="#cb32-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-49"><a href="#cb32-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Rename columns based on the column index and reorder columns</span></span>
+<span id="cb32-50"><a href="#cb32-50" aria-hidden="true" tabindex="-1"></a>both_tables <span class="op">=</span> both_tables.rename(columns<span class="op">=</span>new_column_names).loc[:,[<span class="st">&#39;Stable Coefficients&#39;</span>, <span class="st">&#39;Unstable Coefficients&#39;</span>, <span class="st">&#39;Stable std. error&#39;</span>, <span class="st">&#39;Unstable std. error&#39;</span>]]</span>
+<span id="cb32-51"><a href="#cb32-51" aria-hidden="true" tabindex="-1"></a>both_tables</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Stable Coefficients</th>
+      <th>Unstable Coefficients</th>
+      <th>Stable std. error</th>
+      <th>Unstable std. error</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>const</th>
+      <td>-4.298304</td>
+      <td>-2.919448</td>
+      <td>0.882475</td>
+      <td>0.748194</td>
+    </tr>
+    <tr>
+      <th>Log GDP per Capita</th>
+      <td>0.297812</td>
+      <td>0.324973</td>
+      <td>0.101232</td>
+      <td>0.111064</td>
+    </tr>
+    <tr>
+      <th>Social Support</th>
+      <td>1.635917</td>
+      <td>1.379009</td>
+      <td>0.750224</td>
+      <td>0.836703</td>
+    </tr>
+    <tr>
+      <th>Life Expectancy</th>
+      <td>0.057539</td>
+      <td>0.028183</td>
+      <td>0.013031</td>
+      <td>0.015605</td>
+    </tr>
+    <tr>
+      <th>Life Choice Freedom</th>
+      <td>0.965367</td>
+      <td>1.113285</td>
+      <td>0.648428</td>
+      <td>0.657778</td>
+    </tr>
+    <tr>
+      <th>Generosity</th>
+      <td>0.083930</td>
+      <td>0.022160</td>
+      <td>0.364381</td>
+      <td>0.490370</td>
+    </tr>
+    <tr>
+      <th>Corruption</th>
+      <td>-0.844688</td>
+      <td>0.609323</td>
+      <td>0.310539</td>
+      <td>0.543247</td>
+    </tr>
+    <tr>
+      <th>Positive Affect</th>
+      <td>2.514196</td>
+      <td>2.047044</td>
+      <td>0.692054</td>
+      <td>0.816914</td>
+    </tr>
+    <tr>
+      <th>Negative Affect</th>
+      <td>0.754697</td>
+      <td>-0.741602</td>
+      <td>0.815180</td>
+      <td>0.895572</td>
+    </tr>
+    <tr>
+      <th>Stable error variance</th>
+      <td>0.169946</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Unstable error variance</th>
+      <td>NaN</td>
+      <td>0.203406</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Comparing the results of the multiple linear regression analysis
+between stable and unstable countries, we can observe notable
+similarities and differences in the coefficient estimates for the
+independent variables. In terms of the most significant factors to
+<strong>Life Ladder</strong>, the variable <strong>Positive
+Effect</strong> was the most contributional towards the well being of
+individuals for both politically stable and unstable countries, and
+stable countries had a greater coefficient estimate. In similar fashion,
+the next two most significant factors for both stable and unstable
+countries are <strong>Social Support</strong> and <strong>Life Choice
+Freedom</strong>, meaning individuals who have positive perceptions of
+their country, receive support from friends and family, and believe to
+have freedoms to make their independent choices in life have impacts on
+higher well-being regardless of the political stability of the country.
+This makes sense, as these are highly colinear factors that can affect
+happiness regardless of anything else.</p>
+<p>There are some opposites in coeffecients between Stable and Unstable
+countries: <strong>Corruption</strong> and <strong>Negative
+Affect</strong>,</p>
+<ul>
+<li>For <strong>Corruption</strong> in a Stable Country, the a higher
+average positive perception of their countries' corruption levels
+decreases the <strong>Life Ladder</strong>. However, surprisingly, in an
+Unstable Country, a higher average positive perception of their
+countries' corruption levels actually increases their <strong>Ladder
+Level.</strong></li>
+<li>For <strong>Negative Affect</strong>, a higher average negative
+perception of their whole country increases the <strong>Life
+Ladder</strong> of a stable country, but for unstable countries,
+decreases the <strong>Life Ladder</strong>. This could be due to the
+fact that individuals in stable countries have higher expectations of
+their country, and individuals in unstable countries have lower
+expectations of their country.</li>
+</ul>
+<p>We can see that variables with small coefficients don't have much
+impact in shaping <strong>Life Ladder</strong> of a country. These
+following variables are: <strong>Generosity</strong>, <strong>Life
+Expectancy</strong>, and <strong>Log GDP per Capita</strong>. This
+applies for both politically stable and unstable countries. This is
+quite surprising, since GDP, Life Expectancy are key indicators in
+determining the economic status of a country.</p>
+</div>
+<section id="summary-of-findings" class="cell markdown">
+<h1>Summary of Findings</h1>
+</section>
+<div class="cell markdown">
+<p><strong>Summary of Findings:</strong></p>
+<ul>
+<li>The analysis examined the factors contributing to the Life Ladder
+(subjective well-being of the average individual) in politically stable
+and unstable countries from 2010 to 2020.</li>
+<li>Overall, there were notable similarities and differences in the
+factors that influenced Life Ladder between the two groups.</li>
+<li>Factors that positively impacted Life Ladder regardless of political
+stability were Social Support, Life Choice Freedom, and other positive
+perceptions.</li>
+<li>Positive Effect was the most influential factor in both stable and
+unstable countries, indicating that individuals' positive perceptions of
+their country significantly contribute to their well-being.</li>
+<li>Corruption showed contrasting effects: in stable countries, a higher
+positive perception of corruption decreased the Life Ladder, while in
+unstable countries, a higher positive perception of corruption increased
+the Life Ladder. This suggests that individuals in unstable countries
+may have lower expectations or different perspectives on
+corruption.</li>
+<li>Negative Affect had opposite effects as well: in stable countries, a
+higher negative perception of the country increased the Life Ladder,
+whereas in unstable countries, it decreased the Life Ladder. This could
+be attributed to varying expectations individuals have based on the
+stability of their country.</li>
+<li>Variables with smaller coefficients, such as Generosity, Life
+Expectancy, and Log GDP per Capita, had less impact on shaping the Life
+Ladder in both stable and unstable countries. This finding is
+surprising, considering the significance of these factors in determining
+a country's economic status.</li>
+<li>Overall, the regression analysis revealed distinct differences in
+the factors influencing Life Ladder between politically stable and
+unstable countries, emphasizing the complexity of subjective well-being
+and its relationship with various socio-economic factors.</li>
+</ul>
+<p><strong>Conclusion:</strong></p>
+<p>These findings emphasize the well-being and the need to consider the
+specific political context of each country when analyzing and promoting
+happiness and overall quality of life globally. Political stability
+appears to play a significant role in shaping individuals' well-being,
+with the average individuals' opinions on their countries' positive
+perception, social support, and freedoms shaping their happiness levels.
+Understanding these distinctions can guide policymakers and
+organizations in developing targeted interventions and policies that
+address the unique challenges faced by politically unstable countries,
+aiming to improve well-being and promote stability. By recognizing the
+importance of political stability alongside other key factors,
+governments can work towards fostering happier, healthier, and more
+prosperous societies worldwide.</p>
+</div>
+</body>
+</html>
